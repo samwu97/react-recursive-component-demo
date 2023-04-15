@@ -1,0 +1,20 @@
+.dropdownHeader {
+  width: 100%;
+  height: auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid lightblue;
+  padding-left: 4px;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdownHeaderContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.dropdownArrow {
+  position: absolute;
+  right: 5px;
+}

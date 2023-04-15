@@ -1,0 +1,27 @@
+.commentItemNameDate {
+  display: flex;
+  flex-direction: row;
+}
+
+.commentItemName {
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.commentItemDate {
+  color: gray;
+  display: flex;
+  align-items: flex-end;
+}
+
+.commentItemContent {
+  margin-top: 2px;
+}
+
+.commentItemReply {
+  margin-top: 4px;
+  font-size: 14px;
+  color: gray;
+  cursor: pointer;
+}
